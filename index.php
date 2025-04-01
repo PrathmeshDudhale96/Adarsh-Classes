@@ -1,3 +1,8 @@
+<?php
+// index.php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +23,13 @@
                     <a href="index.php" class="text-indigo-200 border-b-2 border-indigo-200">Home</a>
                     <a href="faculty.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Faculty</a>
                     <a href="students.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Students</a>
-                    <a href="Our Result.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Our Result</a>
                     <a href="contact.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Contact</a>
+                    <?php if (isset($_SESSION['username'])): ?>
+                        <a href="logout.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Logout (<?= htmlspecialchars($_SESSION['username']) ?>)</a>
+                    <?php else: ?>
+                        <a href="login.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Login</a>
+                        <a href="register.php" class="hover:text-indigo-200 transition transform hover:scale-105 duration-300">Register</a>
+                    <?php endif; ?>
                 </div>
             </nav>
         </div>
