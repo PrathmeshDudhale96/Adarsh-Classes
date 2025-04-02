@@ -18,7 +18,7 @@ Welcome to the **Adarsh Learning Platform**! This web application is designed to
 
 ## **🚀 Getting Started**  
 To use the **Adarsh Learning Platform**, follow these steps:  
-1. **Open the Website**: Visit the web application URL (e.g., `http://yourdomain.com`).  
+1. **Open the Website**: Visit the web application URL (`http://localhost/class/index.php`).  
 2. **Register** (if new) or **Login** (if already registered).  
 3. Explore features based on your role (Student/Faculty).  
 
@@ -58,8 +58,6 @@ After logging in as a **Student**, you can:
 
 ---
 
-Here's a focused **Faculty Section** for your README with clear instructions on adding notes and lectures:
-
 ---
 
 ## **👨‍🏫 Faculty Section**  
@@ -85,11 +83,9 @@ As a **Faculty Member**, you have access to powerful tools to manage courses and
    - **Live Session Schedule** (with Google Meet/Zoom integration)  
 3. Tag lectures by topic and batch for easy student access.  
 
-### **📅 Schedule Management**  
+### **📅  Batch Schedule Management**  
 - **Set Class Timings**: Assign dates/times for lectures.  
 - **Batch-wise Planning**: Create separate schedules for different student groups.  
-- **Automatic Notifications**: Students receive alerts when new content is added.  
-
 
 ## **🚪 Logging Out**  
 1. Click on your **profile icon** (top-right corner).  
@@ -97,7 +93,25 @@ As a **Faculty Member**, you have access to powerful tools to manage courses and
 3. You will be redirected to the homepage.  
 
 ---
+## ** ❓ Get Help: Doubt Resolution System ** 
+Students and users can submit academic doubts directly through the platform. Here’s how it works:
 
+For Students/Users:
+Navigate to "Get Help" in the main menu.
+
+Fill the Doubt Form:
+
+Your Name (Required)
+
+Email (For response notifications)
+
+Detailed Description (Explain your doubt clearly)
+
+Click "Submit Doubt".
+
+What Happens Next?
+
+✅ Faculty Response: Expect a reply within 24–48 hours via email/platform inbox.
 
 ## **📞 Contact & Support**  
 For further assistance:  
@@ -106,7 +120,7 @@ For further assistance:
 
 ---
 
-### **🎉 Thank You for Using Adarsh Learning Platform!**  
+### **🎉 Thank You for visiting Adarsh Learning Platform!**  
 We hope this guide helps you navigate the platform smoothly. Happy Learning! 🚀  
 
 
